@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    color: #5b80b2;
+    margin-top: 2em;
+    font-size: 1.5em;
+}
+
+.template {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin-top: 1em;
+}

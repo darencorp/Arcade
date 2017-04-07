@@ -4,3 +4,6 @@ from django.shortcuts import render
 
 def index(request):
     return render(request, 'views/index.html')
+
+def template(request):
+    return render(request, 'views/django_template.html')

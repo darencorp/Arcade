@@ -96,4 +96,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "arcade/static/")
+]
+
 DJANGO_SETTINGS_MODULE = 'arcade/settings.py'
