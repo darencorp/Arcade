@@ -7,7 +7,8 @@
 ## Install
 - clone project
 - sudo apt install nginx
-- put file 'default' to /env/nginx/sites-available
+- change paths to your project location in 'default' file 
+- put file 'default' file to /env/nginx/sites-available
 - sudo nginx -s reload
 - cd to project catalog and run: virtualenv env
 - env/bin/pip3 install -r requirements.txt
